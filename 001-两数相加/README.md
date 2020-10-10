@@ -10,6 +10,7 @@ leetcode ：[001-两数之和](https://leetcode-cn.com/problems/add-two-numbers/
 
 ## 解法二
 # 直接模拟相加
+- 设哑节点
 - 两个链表首先要对齐，使得二者长度相等
 - 注意最后一位进位的问题
 
