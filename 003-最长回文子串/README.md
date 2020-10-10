@@ -56,22 +56,22 @@ class Solution {
         int center = 0;
         int maxRigth = 0;
         int res = 0;
-        int[] palindrome = new int[s.length()];
+        int[] radius = new int[s.length()];
         for(int i=0;i<s.length();i++){
-            int mrrior = 2*center - i;
-            if(i>=maxRigth||(i+palindrome[mrrior])>=maxRigth){
+            int mirror = 2*center - i;
+            if(i>=maxRigth||(i+radius[mirror])>=maxRigth){
                 maxRigth = expendMaxRight(s, i);
                 center = i;
-                palindrome[i] = maxRigth - i + 1;
+                radius[i] = maxRigth - i + 1;
             }
             else{
-                palindrome[i] = palindrome[mrrior];
+                radius[i] = radius[mirror];
             }
-            res = Math.max(res, palindrome[i]);
+            res = Math.max(res, radius[i]);
         }
 
         for(int i=0;i<s.length();i++){
-            if(palindrome[i]==res){
+            if(radius[i]==res){
                 s = s.substring(i-res+1, i+res);
                 s = s.replace("#", "");
                 break;
