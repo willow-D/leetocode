@@ -68,7 +68,7 @@ class Solution {
             int index = i;
             while(index<s.length()){
                 stringBuilder.append(s.charAt(index));
-                add = l - add;
+                add = l - add;  // 这里是个小技巧
                 index += i==0||i==numRows-1 ? l : add;  
             }
         }
