@@ -18,7 +18,7 @@ leetcode : [字符串转整数（atoi）](https://leetcode-cn.com/problems/strin
 ![Alt text](https://github.com/willow-D/leetocode/blob/master/005-%E5%AD%97%E7%AC%A6%E4%B8%B2%E8%BD%AC%E6%95%B4%E6%95%B0%EF%BC%88atoi%EF%BC%89/%E7%8A%B6%E6%80%81%E6%9C%BA.png)
 
 
-```
+```Java
 class Solution {
     public int myAtoi(String s) {
         Automation automation = new Automation();
