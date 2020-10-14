@@ -10,3 +10,4 @@ leetcode 解题记录
 |[005-字符串转整数(atoi)*](https://leetcode-cn.com/problems/string-to-integer-atoi/) |[Java](./005-字符串转整数（atoi）/README.md)|
 |[006-盛最多水的容器](https://leetcode-cn.com/problems/container-with-most-water/)|[Java](./006-盛最多水的容器/README.md)|
 |[007-寻找两个正序数组的中位数*](https://leetcode-cn.com/problems/median-of-two-sorted-arrays/)|[Java](./007-寻找两个正序数组的中位数/README.md)|
+|[008-排序链表](https://leetcode-cn.com/problems/sort-list/)|[Java](./008-排序链表/README.md)|
