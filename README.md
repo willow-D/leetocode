@@ -12,3 +12,4 @@ leetcode 解题记录
 |[007-寻找两个正序数组的中位数*](https://leetcode-cn.com/problems/median-of-two-sorted-arrays/)|[Java](./007-寻找两个正序数组的中位数/README.md)|
 |[008-排序链表](https://leetcode-cn.com/problems/sort-list/)|[Java](./008-排序链表/README.md)|
 |[009-正则表达式匹配](https://leetcode-cn.com/problems/regular-expression-matching/)|[Java](009-正则表达式匹配/README.md)|
+|[010-三数之和](https://leetcode-cn.com/problems/3sum/submissions/)|[Java](010-三数之和/README.md)|
