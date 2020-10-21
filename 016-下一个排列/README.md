@@ -16,18 +16,28 @@ class Solution {
             for(int j=nums.length-1;j>=i;j--){
                 if(nums[j]>nums[i-1]){
                     swap(nums, i-1, j);
-                    Arrays.sort(nums, i, nums.length);
+                    reverse(nums, i);
                     return;
                 }
             }
         }
-        Arrays.sort(nums);
+        reverse(nums, 0);
         return;
     }
     public void swap(int[] nums, int i, int j){
         int tem = nums[i];
         nums[i] = nums[j];
         nums[j] = tem;
+    }
+    
+    public void reverse(int[] nums, int start){
+        int i=start;
+        int j = nums.length-1;
+        while(i<j){
+            swap(nums, i, j);
+            i++;
+            j--;
+        }
     }
 }
 ```
