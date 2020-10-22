@@ -21,3 +21,6 @@ leetcode 解题记录
 |[016-下一个排列](https://leetcode-cn.com/problems/next-permutation/submissions/)|[Java](./016-下一个排列/README.md)|
 |[017-最长有效括号](https://leetcode-cn.com/problems/longest-valid-parentheses/submissions/)|[Java](./017-最长有效括号/READMD.md)|
 |[018-搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/submissions/)|[Java](./018-搜索旋转排序数组/READMD.md)|
+|[019-在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/)|[Java](./019-在排序数组中查找元素的第一个和最后一个位置/README.md)|
+|[020-组合总和](https://leetcode-cn.com/problems/combination-sum/)|[Java](./020-组合总和/README.md)|
+|[021-接雨水](https://leetcode-cn.com/problems/trapping-rain-water/)|[Java](./接雨水/README.md)|
