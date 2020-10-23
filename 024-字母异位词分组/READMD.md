@@ -87,3 +87,31 @@ leetcode : [字母异位词分组](https://leetcode-cn.com/problems/group-anagra
     }
 ```
 
+### 埃式筛法求素数
+```Java
+        public int[] getPrime(){
+            int[] prime = new int[26];
+            int[] nums = new int[400];
+            for(int i=2;i<200;i++){
+                if(nums[i]==0){
+                    int index = i*2;
+                    while(index<nums.length){
+                        nums[index] = 1;
+                        index+=i;
+                    }
+                }
+            }
+            int i=0;
+            for(int j=2;j<nums.length;j++){
+                if(i==26){
+                    break;
+                }
+                if(nums[j]==0){
+                    prime[i] = j;
+                    i++;
+                }
+            }
+            return prime;
+        }
+    }
+```
