@@ -22,3 +22,30 @@ class Solution {
 }
 
 ```
+
+## 迭代
+```Java
+class Solution {
+    public List<Integer> inorderTraversal(TreeNode root) {
+
+        List<Integer> res = new LinkedList<>();
+        if(root==null){
+            return res;
+        }
+        Stack<TreeNode> stack = new Stack<>();
+        while(!stack.empty() || root!=null){
+            if(root!=null){
+                stack.add(root);
+                root = root.left;
+            }
+            else{
+                root = stack.pop();
+                res.add(root.val);
+                root = root.right;
+            }
+        }
+        return res;
+    }
+}
+
+```
