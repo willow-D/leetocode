@@ -62,6 +62,7 @@ leetcode 解题记录
 |058-求众数II|[Java](./src/058-求众数II/README.md)|
 |059-打家劫舍|[Java](./src/059-打家劫舍/README.md)|
 |060-两两交换链表中的节点|[Java](./src/060-两两交换链表中的节点/README.md)|
-
+|061-课程表|[Java*](./src/061-课程表/README.md)|
+|062-课程表II|[Java](./src/062-课程表II/README.md)|
 
 
