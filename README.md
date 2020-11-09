@@ -66,4 +66,4 @@ leetcode 解题记录
 |062-课程表II|[Java](./src/062-课程表II/README.md)|
 |063-反转链表|[Java](./src/063-反转链表/README.md)|  
 |064-岛屿数量|[Java](./src/064-岛屿数量/README.md)|
-|065-实现前缀树|[Java](./src/065-实现前缀树/README.md)|
+|065-实现前缀树|[Java*](./src/065-实现前缀树/README.md)|
